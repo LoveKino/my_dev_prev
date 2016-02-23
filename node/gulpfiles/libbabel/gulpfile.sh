@@ -1,5 +1,6 @@
 #!/bin/bash
-cd $1
+PROJECT_DIR=$1
+cd $PROJECT_DIR
 
 npm i gulp --save-dev
 npm i gulp-babel --save-dev
