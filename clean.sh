@@ -15,6 +15,8 @@ fi
 for f in $(find . -maxdepth 1); do
     [ ! $f == './.git' ] && 
     [ ! $f == './my_dev_prev' ] && 
+    [ ! $f == './src' ] && 
+    [ ! $f == './test' ] && 
     [ ! $f == '.' ] && 
     rm -r $f
 done

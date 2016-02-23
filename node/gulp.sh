@@ -9,6 +9,6 @@ GULP_TYPE='simplegulp';
 [ ! -z $1 ] && GULP_TYPE=$1
 
 cp $CUR_DIR/gulpfiles/$GULP_TYPE/gulpfile.js $PROJECT_DIR/gulpfile.js
-$CUR_DIR/gulpfiles/$GULP_FILE/gulpfile.sh $PROJECT_DIR
+$CUR_DIR/gulpfiles/$GULP_TYPE/gulpfile.sh $PROJECT_DIR
 
 cd $PROJECT_DIR
