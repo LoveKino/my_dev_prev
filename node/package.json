@@ -1,0 +1,20 @@
+{
+  "name": "generate-by-my-dev-prev",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/lib/**/*",
+    "cover": "istanbul cover _mocha test/lib/**/*"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
