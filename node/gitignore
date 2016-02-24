@@ -1,6 +1,7 @@
 node_modules
 *.swp
 coverage
+my_dev_prev
 
 # OS generated files #
 ######################

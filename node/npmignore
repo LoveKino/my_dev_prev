@@ -3,6 +3,8 @@ node_modules
 coverage
 test
 src
+gulpfile.js
+my_dev_prev
 
 # OS generated files #
 ######################
